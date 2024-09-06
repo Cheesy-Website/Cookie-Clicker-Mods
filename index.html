@@ -147,14 +147,42 @@ function randombg(){
 <br>
 <a>Then, go to the cookie clicker options, then scroll down to "Klattmose Utilities"</a>
 <br>
-<a>Then, in the "On-Load Functions" tab, click add button then name it something you will remember</a>
+<a>Then, in the "On-Load Functions" tab, click "Add" then a box will popup with 2 things, name the mod something you will remember</a>
 <br>
-<a>Then, paste the code you copied into the box called "Script" then click save</a>
+<a>Then, paste the code you copied into the box that is labeled "Script" then click save</a>
 <br>
 <a id="Addons">Save your game, reload cookie clicker, wait for the mod manager to load and the mods will load with it. Enjoy!<a>
 <br>
 <br>
 <h1>Addons</h1>
+
+<h1>Custom Addons</h1>
+
+<h2>Perfect Cookie Selector</h2>
+<script>
+function insugar() {
+  /* Get the text field */
+  var copyText = document.getElementById("PCS");
+
+  /* Select the text field */
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+   /* Copy the text inside the text field */
+  navigator.clipboard.writeText(copyText.value);
+
+  /* Alert the copied text */
+  alert("Copied the text: " + copyText.value);
+}
+</script>
+<!-- The button used to copy the text -->
+<button onclick="PCS()">Copy</button>
+<!-- The text field -->
+<input style="visibility: hidden; position= absolute;" type="text" value="javascript:(function(){Game.LoadMod('https://staticvariablejames.github.io/InsugarTrading/InsugarTrading.js');}());" id="insugar">
+<br>
+<a>Adds a new upgrade that allows you to change how the cookie looks.</a>
+<br>
+<a>Current version: ?</a>
 
 <h1>Garden Addons</h1>
 
