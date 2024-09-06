@@ -1,4 +1,3 @@
-# Cookie-Clicker-Guide
-in progress (use wiki, it better)
-
-The site: https://sushi8756.github.io/Cookie-Clicker-Guide/
+# Cookie-Clicker-Addons
+(Not owned by me, I only edited Sushi8756's website and added my own addons)
+WIP
