@@ -103,7 +103,7 @@ body {
 #random{
   
   /* ENHANCEMENT */
-  background-image: url('add/bgBlue.jpg');
+  background-image: url('https://i.ibb.co/BtyvbdQ/bgBlue.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -113,11 +113,11 @@ body {
 <script>
 function randombg(){
   var random= Math.floor(Math.random() * 6) + 0;
-  var bigSize = ["url('add/bgBlue.jpg')",
-                 "url('add/bgBlack.jpg')",
-                 "url('add/bgGold.jpg')",
-                 "url('add/bgRed.jpg')",
-                 "url('add/bgWhite.jpg')"];
+  var bigSize = ["url('https://i.ibb.co/BtyvbdQ/bgBlue.png')",
+                 "url('https://i.ibb.co/BtyvbdQ/bgBlue.png')",
+                 "url('https://i.ibb.co/BtyvbdQ/bgBlue.png')",
+                 "url('https://i.ibb.co/BtyvbdQ/bgBlue.png')",
+                 "url('https://i.ibb.co/BtyvbdQ/bgBlue.png')"];
   document.getElementById("random").style.backgroundImage=bigSize[random];
 }
 </script>
